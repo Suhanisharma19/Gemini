@@ -53,7 +53,7 @@ const Main = () => {
                     <div className="dot"></div>
                   </div>
                 ) : (
-                  <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
+                  <div className="ai-response-content" dangerouslySetInnerHTML={{ __html: resultData }}></div>
                 )}
               </div>
             </div>
@@ -62,7 +62,7 @@ const Main = () => {
           // Welcome Section
           <div className="welcome-section">
             <div className="greet">
-              <p><span>Hello, Suhani</span></p>
+              <p><span>Hello, User</span></p>
               <p>How can I help you today?</p>
             </div>
 

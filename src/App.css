@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
